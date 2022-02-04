@@ -1,0 +1,21 @@
+
+1.1
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$git config --list
+
+1.2
+<!-- Desde el escritorio-->
+$ mkdir libro
+$ cd libro/
+$ git init
+
+1.3
+$ git status
+$ touch indice.txt
+$ git status
+$ git add *
+$ git status
+
+1.4
+$ git commit -m "Añadido índice del libro"
